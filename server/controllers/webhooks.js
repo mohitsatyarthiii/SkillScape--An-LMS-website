@@ -122,5 +122,4 @@ export const stripeWebhooks = async (request, response)=> {
   // Return a response to acknowledge receipt of the event
   response.json({received: true});
 }
-=======
->>>>>>> 4e728c02842e054012ce82df315e6338268120b5
+
