@@ -56,7 +56,6 @@ export const clerkWebhooks = async (req, res)=> {
         res.json({success: false, message: error.message})
     }
 }
-<<<<<<< HEAD
 
 const stripeInstance = new Stripe(process.env.STRIPE_SECRET_KEY)
 
@@ -122,5 +121,4 @@ export const stripeWebhooks = async (request, response)=> {
   // Return a response to acknowledge receipt of the event
   response.json({received: true});
 }
-=======
->>>>>>> 4e728c02842e054012ce82df315e6338268120b5
+
